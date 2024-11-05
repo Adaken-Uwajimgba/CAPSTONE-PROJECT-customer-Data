@@ -1,9 +1,11 @@
 ## CAPSTONE-PROJECT
-# PROJECT(2) TITLE:CUSTOMER DATA ANALYSIS
+# PROJECT(2) TITLE:CUSTOMER DATA ANALYSIS BASED ON SUBSCRIPTION
 
 ## OUTLINES
 ---
-[PROJECT SUMMARY FOR CUSTOMER DATA BASED ON SUBSCRIPTION](#project-summary-for-customer-data-based-on-subscription)
+[SUMMARY](#summary)
+
+[INTRODUCTION](#introduction)
 
 [DATA SOURCES](#data-sources)
 
@@ -18,11 +20,24 @@
 [DATA ANALYSIS](#data-analysis)
 
 
-### PROJECT SUMMARY FOR CUSTOMER DATA BASED ON SUBSCRIPTION
+### SUMMARY
 ---
-The goal of this Data Analysis is to appraise the Customer Data Analysis based on Subscription over a Specified Period of Time. The Dataset encompasses a detailed view of Customer Data, Subscription Types,Region, Subscription Renewals or cancelations and Revenue generated. The Customer Dataset provided will be used to assess Customer Behaviors by subscription(preferences,purchasing power e.t.c),determining Key trends in Subscription Renewal and cancellations
+This Project appraises the Customer Data Analysis based on Subscription over a Specified Period of Time. The Dataset encompasses a detailed view of Customer Data, Subscription Types,Region, Subscription Renewals or cancelations and Revenue generated. The Customer Dataset provided will be used to assess Customer Behaviors by subscription(preferences,purchasing power e.t.c),determining Key trends in Subscription Renewal and cancellations
+
+### INTRODUCTION
+---
+#### Problem Statement
+We are addressing the issue of comprehending Customer Behavior in terms of preferences, location and any like factors that contribute to the choices they make pertaining to their Subscription type, subscription Duration.
+
+#### AIMS
+- To understand Customer Behavior
+- To Monitor and categorise the different types of subscription plans being used by each customer.
+- To analyze patterns and behaviors related to how customers renew or cancel their subscriptions.
 
 ### DATA SOURCES
+
+
+
 ---
 The Data source used for this Analysis is the Data customer.csv files and this is an open source Data that can be freely downloaded from any open source Platform such as [Kaggle](https://www.kaggle.com/datasets),[FRED](https://appsource.microsoft.com/en-us/product/office365/wa200003692?tab=overview) e.t.c
 
