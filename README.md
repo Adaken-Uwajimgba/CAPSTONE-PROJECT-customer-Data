@@ -7,13 +7,9 @@
 
 [INTRODUCTION](#introduction)
 
-[DATA SOURCES](#data-sources)
+[DATA DESCRIPTION](#data-description)
 
-[ATTRIBUTE DESCRIPTIONS FOR CUSTOMER DATA ANALYSIS](#attribute-descriptions-for-customer-data-analysis)
-
-[TOOLS USED](#tools-used)
-
-[DATA CLEANING AND PREPARATION](#data-cleaning-and-preparation)
+[PROCEDURES](#procedures)
 
 [EXPLORATORY DATA ANALYSIS](#exploratory-data-analysis)
 
@@ -29,20 +25,17 @@ This Project appraises the Customer Data Analysis based on Subscription over a S
 #### Problem Statement
 We are addressing the issue of comprehending Customer Behavior in terms of preferences, location and any like factors that contribute to the choices they make pertaining to their Subscription type, subscription Duration.
 
-#### AIMS
+#### Aims
 - To understand Customer Behavior
 - To Monitor and categorise the different types of subscription plans being used by each customer.
 - To analyze patterns and behaviors related to how customers renew or cancel their subscriptions.
 
-### DATA SOURCES
-
-
-
+### DATA DESCRIPTION 
 ---
+#### Data Sources
 The Data source used for this Analysis is the Data customer.csv files and this is an open source Data that can be freely downloaded from any open source Platform such as [Kaggle](https://www.kaggle.com/datasets),[FRED](https://appsource.microsoft.com/en-us/product/office365/wa200003692?tab=overview) e.t.c
 
-### ATTRIBUTE DESCRIPTIONS FOR CUSTOMER DATA ANALYSIS
----
+#### Data Attributes
   - CustomerID: Distinct identifier for each customer.
   - CustomerName: Name of the customer.
   - Region: Geographical Location where the customer is situated (e.g., East, South, West, North).
@@ -53,22 +46,22 @@ The Data source used for this Analysis is the Data customer.csv files and this i
   - Revenue: Revenue generated from the customer's subscription.
   - Subscription Duration: Duration (in days) of the subscription period
 
-### TOOLS USED
+### PROCEDURES
 ---
+#### Tools Used
 1) Microsoft Excel(xlxs)
    - Data Cleaning
    - Pivot Tables
    - Analysis
    - Data Visualization.
-2) Structured Query Language(SQL)
-   - Quering Data
-3) Power BI
+2) Microsoft SQL Server([SMSS)](https://www.microsoft.com/en-us/sql-server/sql-server-2022)
+   - Quering Data and preprocessing
+3) Power BI([Download Here)](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
    - Data Cleaning,
    - Data Visualization
    - For Reporting
 
-### DATA CLEANING AND PREPARATION
----
+#### DATA CLEANING AND PREPARATION
 In the Early Stages of the Data cleaning and preparations, we implemented the following actions:-
 - i) Data loading and Inspection
 - ii) Removal of Duplicates
