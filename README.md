@@ -95,3 +95,9 @@ From [dbo].[Lita_project 2-Customer Data]
 Group by SubscriptionType
 ORDER BY total_customers DESC
 ```
+#### Using SQL for the Customer Data Analysis
+Below are the uploaded Screenshots for the Queries we ran  while exploring this Dataset.
+First we create our Database
+```SQL
+CREATE DATABASE Lita_PROJECT 2-Customer Data
+```
