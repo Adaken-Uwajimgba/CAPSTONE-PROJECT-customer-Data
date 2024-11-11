@@ -95,7 +95,7 @@ From [dbo].[Lita_project 2-Customer Data]
 Group by SubscriptionType
 ORDER BY total_customers DESC
 ```
-#### Using SQL for the Customer Data Analysis![Screenshot (27)](https://github.com/user-attachments/assets/2a73224d-b485-4b4d-a3e6-0d4c39571dfd)
+#### Using SQL for the Customer Data Analysis
 
 Below are the uploaded Screenshots for the Queries we ran  while exploring this Dataset.
 First we create our Database
@@ -110,8 +110,25 @@ CREATE DATABASE Lita_PROJECT 2-Customer Data
 
 - Query 3;Find Customers who canceled their subscription within 6 months
 
-- Query 4;Calculate the average subscription duration for customers
+- Query 4;Calculate the average subscription duration for all customers
 ![Screenshot (30)](https://github.com/user-attachments/assets/13982e60-cbca-4d5a-bea8-6f93ca4f2f07)
+
+- Query 5;Find Customers with Subscriptions longer than 12 months
+![Screenshot (31)](https://github.com/user-attachments/assets/4c5a5f65-24bc-4572-88a9-b281c780ac2b)
+
+- Query 6;Calculate Total Revenue by Subscription Type
+![Screenshot (32)](https://github.com/user-attachments/assets/573b1c32-c628-466b-885f-e44443bdc30a)
+
+- Query 7;Find the Top 3 Regions by Subscription Cancellations
+![Screenshot (33)](https://github.com/user-attachments/assets/7214c273-a4ba-4ebc-ba0f-e45978c9edc8)
+
+- Query 8;Find the total number of Active and Canceled Subscriptions
+![Screenshot (34)](https://github.com/user-attachments/assets/f7a074fd-f90f-4183-ad5c-78fb9a8834f2)
+
+
+
+
+
 
 
 
