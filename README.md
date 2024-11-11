@@ -95,9 +95,23 @@ From [dbo].[Lita_project 2-Customer Data]
 Group by SubscriptionType
 ORDER BY total_customers DESC
 ```
-#### Using SQL for the Customer Data Analysis
+#### Using SQL for the Customer Data Analysis![Screenshot (27)](https://github.com/user-attachments/assets/2a73224d-b485-4b4d-a3e6-0d4c39571dfd)
+
 Below are the uploaded Screenshots for the Queries we ran  while exploring this Dataset.
 First we create our Database
 ```SQL
 CREATE DATABASE Lita_PROJECT 2-Customer Data
 ```
+- Query 1;Retrieve the total Number of Customers from each region
+![Screenshot (28)](https://github.com/user-attachments/assets/93946424-6fa7-4e98-855d-ef601e1c2160)
+
+- Query 2;Find the most Popular Subscription type by the number of customers
+![Screenshot (29)](https://github.com/user-attachments/assets/5a05f02e-5027-4628-85d8-dfe1ea1be3a0)
+
+- Query 3;Find Customers who canceled their subscription within 6 months
+
+- Query 4;Calculate the average subscription duration for customers
+![Screenshot (30)](https://github.com/user-attachments/assets/13982e60-cbca-4d5a-bea8-6f93ca4f2f07)
+
+
+
